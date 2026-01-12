@@ -9,4 +9,5 @@ python-dotenv
 fastapi
 pydantic
 langchain-huggingface
+sentence-transformers
 
