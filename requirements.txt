@@ -2,12 +2,10 @@ langchain
 langchain-core
 langchain-community
 langchain-groq
+langchain-huggingface
 chromadb
 pypdf
 pandas
 python-dotenv
 fastapi
 pydantic
-langchain-huggingface
-sentence-transformers
-
