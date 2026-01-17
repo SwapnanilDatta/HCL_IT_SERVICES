@@ -34,8 +34,12 @@ troubleshoot_db = Chroma(
 # --- 3. TICKET GENERATION LOGIC ---
 issue_ticket_map = {
     "wifi not working": "TICKET-WIFI-001",
+    "wifi": "TICKET-WIFI-001",
     "email issue": "TICKET-EMAIL-002",
+    "email": "TICKET-EMAIL-002",
     "vpn connection problem": "TICKET-VPN-003",
+    "vpn not working": "TICKET-VPN-003",
+    "vpn": "TICKET-VPN-003",
 }
 
 def _normalize(text: str) -> str:
